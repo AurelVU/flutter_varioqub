@@ -1,5 +1,14 @@
 # flutter_varioqub
 
+Note: you need to add the following dependency override to work correctly on iOS
+
+target 'Runner' do
+  ...
+  pod 'Varioqub', :git => 'https://github.com/AurelVU/Varioqub.git'
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+end
+
 Flutter plugin for A/B testing service from Yandex Metrica - Varioqub
 Similar to Firebase Remote Config
 
