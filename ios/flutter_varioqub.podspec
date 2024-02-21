@@ -15,7 +15,8 @@ Flutter плагин для сервиса A/B тестирования от Yan
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'Varioqub/MetricaAdapter', '~> 0.5'
+  s.dependency 'Varioqub', '~> 0.6'
+  s.dependency 'Varioqub/MetricaAdapterReflection', '~> 0.6'
 
 s.platform = :ios, '11.0'
 
